@@ -134,7 +134,7 @@ def classify_review():
 
     return p, n
 
-# removes all the special characters (Symbols, emojis) present in the review. #
+# removes all the special characters (Symbols, emojis) present in the review #
 def clean_text(text):
     delete_dict = {sp_character: '' for sp_character in string.punctuation}
     delete_dict[' '] = ' '
